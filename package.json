@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress",
-    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
+    "start": "webpack-dev-server --progress --colors",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress --colors"
   },
   "dependencies": {
     "react": "~15.3.2",
@@ -38,6 +38,7 @@
     "signals": "~1.0.0",
     "style-loader": "^0.13.1",
     "webpack": "~1.13.2",
+    "webpack-dashboard": "^0.2.0",
     "webpack-dev-server": "~1.14.1"
   },
   "repository": {
